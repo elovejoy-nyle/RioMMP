@@ -1,0 +1,660 @@
+{
+	"about": {
+		"systemInfo": {
+			"nodeJsVersion": "12.22.1",
+			"nxtioManage": {
+				"version": "3.4.2",
+				"timestampIso": "2022-08-18T03:17:27.733Z",
+				"commit": "ca9185eccdc52f37af88d585c8720c258306ce4c",
+				"localChanges": "true"
+			},
+			"ioCoprocessor": {
+				"firmwareTimestamp": "1/1/2000",
+				"firmwareVersion": "A1.0z",
+				"loaderTimestamp": "12/31/1999",
+				"loaderVersion": "A1.0a"
+			},
+			"loader": {
+				"commit": "64a31757ee",
+				"version": "v2018.01",
+				"raw": "U-Boot 2018.01-g64a31757ee (Sep 24 2021 - 17:05:31 +0000)\nU-Boot 2018.01-g64a31757ee (Sep 24 2021 - 17:05:44 +0000)\n"
+			},
+			"powerSupply": {
+				"deviceModel": "Mock Device",
+				"buildDate": "7/7/2007",
+				"serialNumber": "123321"
+			},
+			"hardware": {
+				"minimumFirmwareVersion": "3.2.3"
+			}
+		},
+		"buildInfo": {
+			"deviceModel": "GRV-R7",
+			"distroName": "grv-r7-release",
+			"distroVersion": "3.4.1-b.62",
+			"buildDate": "2022-08-18T03:35:17"
+		},
+		"restoreInfo": {
+			"deviceModel": "GRV-R7",
+			"distroName": "grv-r7-release",
+			"distroVersion": "3.4.1-b.62",
+			"buildDate": "2022-08-18T01:26:01"
+		},
+		"shellAccessed": {
+			"shellAccessed": false
+		},
+		"serialNumber": {
+			"serialNumber": "880507\n"
+		},
+		"ioInfoResponse": {
+			"mmpRev": 1,
+			"pucFlag": false,
+			"firmware": {
+				"version": "R3.4b",
+				"date": "08/18/2022",
+				"time": "02:20:44"
+			},
+			"hardware": {
+				"part": "GRV-R7-MM1001-10",
+				"revision": "04/13/2020"
+			}
+		},
+		"rioInfo": {
+			"index": 0,
+			"moduleId": "0xF0000022",
+			"firmwareMode": 107,
+			"mfgSerialNumber": 874765,
+			"hardwareRevisionDate": "03/17/2020",
+			"loaderProgramNumber": "37745",
+			"loaderVersion": "R1.0b",
+			"loaderDate": "2020-04-17",
+			"loaderTime": "14:48:23",
+			"firmwareProgramNumber": "0",
+			"firmwareVersion": "R1.0i",
+			"firmwareDate": "2021-10-26",
+			"firmwareTime": "09:18:34"
+		},
+		"nodeRedInfo": {
+			"nodeRedFlows": {
+				"lastModified": -1,
+				"lastModifiedISO": ""
+			},
+			"nodeJsVersion": "v12.22.1",
+			"nodeRedVersion": "2.2.2",
+			"portListening": false
+		}
+	},
+	"systemStatus": {
+		"systemTime": {
+			"systemUpTimeSec": 1964,
+			"systemTime": "2026-03-27T17:44:09.000Z",
+			"systemUtcOffset": 0
+		},
+		"systemCpu": {
+			"usage": 3.1914893617021276
+		},
+		"systemMemory": {
+			"total": 1051119616,
+			"free": 890404864
+		},
+		"systemDisk": {
+			"total": 4294967296,
+			"available": 2747596800
+		},
+		"bootTime": {
+			"bootTimeMsecSinceEpoch": 1774631484000
+		},
+		"processes": {
+			"auth": {
+				"memory": 57528320,
+				"cpu": 11,
+				"status": "online",
+				"uptimeSec": 1922.076,
+				"lastStart": 1774631528871,
+				"lastStartISO": "2026-03-27T17:12:08.871Z",
+				"restarts": 0,
+				"unstableRestarts": 0,
+				"running": true
+			},
+			"groovManage": {
+				"memory": 70135808,
+				"cpu": 19,
+				"status": "online",
+				"uptimeSec": 1897.411,
+				"lastStart": 1774631553537,
+				"lastStartISO": "2026-03-27T17:12:33.537Z",
+				"restarts": 0,
+				"unstableRestarts": 0,
+				"running": true
+			},
+			"nginx": {
+				"running": true
+			}
+		}
+	},
+	"grvModules": {
+		"modules": [
+			{
+				"info": {
+					"index": 0,
+					"moduleId": "0xF0000022",
+					"firmwareMode": 107,
+					"mfgSerialNumber": 874765,
+					"hardwareRevisionDate": "03/17/2020",
+					"loaderProgramNumber": "37745",
+					"loaderVersion": "R1.0b",
+					"loaderDate": "2020-04-17",
+					"loaderTime": "14:48:23",
+					"firmwareProgramNumber": "0",
+					"firmwareVersion": "R1.0i",
+					"firmwareDate": "2021-10-26",
+					"firmwareTime": "09:18:34"
+				},
+				"config": {
+					"index": 0,
+					"typeID": "0xF0000022",
+					"typeName": "GRV-R7-MM1001-10",
+					"channels": [
+						{
+							"moduleIndex": 0,
+							"channelIndex": 0,
+							"moduleType": 4026531874,
+							"channelType": 1610612758,
+							"name": "Flow Sensor",
+							"feature": 0,
+							"unit": "flow",
+							"watchdogValue": 0,
+							"watchdogEnabled": false,
+							"offset": 0,
+							"gain": 1,
+							"scaledUpper": 1000,
+							"scaledLower": 0,
+							"clampUpper": 0,
+							"clampLower": 0,
+							"averageFilterWeight": 2.802596928649634e-45,
+							"simpleMovingAverageReadings": 0,
+							"qualityEnabled": true,
+							"steinhartHartCoefficientA": 0,
+							"steinhartHartCoefficientB": 0,
+							"steinhartHartCoefficientSecondOrder": 0,
+							"steinhartHartCoefficientC": 0
+						},
+						{
+							"moduleIndex": 0,
+							"channelIndex": 1,
+							"moduleType": 4026531874,
+							"channelType": 1610612801,
+							"name": "",
+							"feature": 0,
+							"unit": "Degrees F",
+							"watchdogValue": 0,
+							"watchdogEnabled": false,
+							"offset": 0,
+							"gain": 1,
+							"scaledUpper": 302,
+							"scaledLower": -40,
+							"clampUpper": 0,
+							"clampLower": 0,
+							"averageFilterWeight": 2.802596928649634e-45,
+							"simpleMovingAverageReadings": 0,
+							"qualityEnabled": true,
+							"steinhartHartCoefficientA": 0,
+							"steinhartHartCoefficientB": 0,
+							"steinhartHartCoefficientSecondOrder": 0,
+							"steinhartHartCoefficientC": 0
+						},
+						{
+							"moduleIndex": 0,
+							"channelIndex": 2,
+							"moduleType": 4026531874,
+							"channelType": 1610612801,
+							"name": "",
+							"feature": 0,
+							"unit": "Degrees F",
+							"watchdogValue": 0,
+							"watchdogEnabled": false,
+							"offset": 0,
+							"gain": 1,
+							"scaledUpper": 302,
+							"scaledLower": -40,
+							"clampUpper": 0,
+							"clampLower": 0,
+							"averageFilterWeight": 2.802596928649634e-45,
+							"simpleMovingAverageReadings": 0,
+							"qualityEnabled": true,
+							"steinhartHartCoefficientA": 0,
+							"steinhartHartCoefficientB": 0,
+							"steinhartHartCoefficientSecondOrder": 0,
+							"steinhartHartCoefficientC": 0
+						},
+						{
+							"moduleIndex": 0,
+							"channelIndex": 3,
+							"moduleType": 4026531874,
+							"channelType": 1610612801,
+							"name": "",
+							"feature": 0,
+							"unit": "Degrees F",
+							"watchdogValue": 0,
+							"watchdogEnabled": false,
+							"offset": 0,
+							"gain": 1,
+							"scaledUpper": 302,
+							"scaledLower": -40,
+							"clampUpper": 0,
+							"clampLower": 0,
+							"averageFilterWeight": 2.802596928649634e-45,
+							"simpleMovingAverageReadings": 0,
+							"qualityEnabled": true,
+							"steinhartHartCoefficientA": 0,
+							"steinhartHartCoefficientB": 0,
+							"steinhartHartCoefficientSecondOrder": 0,
+							"steinhartHartCoefficientC": 0
+						},
+						{
+							"moduleIndex": 0,
+							"channelIndex": 4,
+							"moduleType": 4026531874,
+							"channelType": 1610612801,
+							"name": "",
+							"feature": 0,
+							"unit": "Degrees F",
+							"watchdogValue": 0,
+							"watchdogEnabled": false,
+							"offset": 0,
+							"gain": 1,
+							"scaledUpper": 302,
+							"scaledLower": -40,
+							"clampUpper": 0,
+							"clampLower": 0,
+							"averageFilterWeight": 2.802596928649634e-45,
+							"simpleMovingAverageReadings": 0,
+							"qualityEnabled": true,
+							"steinhartHartCoefficientA": 0,
+							"steinhartHartCoefficientB": 3892,
+							"steinhartHartCoefficientSecondOrder": 0,
+							"steinhartHartCoefficientC": 0
+						},
+						{
+							"moduleIndex": 0,
+							"channelIndex": 5,
+							"moduleType": 4026531874,
+							"channelType": 1610612801,
+							"name": "",
+							"feature": 0,
+							"unit": "Degrees F",
+							"watchdogValue": 0,
+							"watchdogEnabled": false,
+							"offset": 0,
+							"gain": 1,
+							"scaledUpper": 302,
+							"scaledLower": -40,
+							"clampUpper": 0,
+							"clampLower": 0,
+							"averageFilterWeight": 2.802596928649634e-45,
+							"simpleMovingAverageReadings": 0,
+							"qualityEnabled": true,
+							"steinhartHartCoefficientA": 0,
+							"steinhartHartCoefficientB": 0,
+							"steinhartHartCoefficientSecondOrder": 0,
+							"steinhartHartCoefficientC": 0
+						},
+						{
+							"moduleIndex": 0,
+							"channelIndex": 6,
+							"moduleType": 4026531874,
+							"channelType": 1610612760,
+							"name": "HP",
+							"feature": 0,
+							"unit": "Psi",
+							"watchdogValue": 0,
+							"watchdogEnabled": false,
+							"offset": 0,
+							"gain": 1,
+							"scaledUpper": 750,
+							"scaledLower": 0,
+							"clampUpper": 0,
+							"clampLower": 0,
+							"averageFilterWeight": 2.802596928649634e-45,
+							"simpleMovingAverageReadings": 0,
+							"qualityEnabled": true,
+							"steinhartHartCoefficientA": 0,
+							"steinhartHartCoefficientB": 0,
+							"steinhartHartCoefficientSecondOrder": 0,
+							"steinhartHartCoefficientC": 0
+						},
+						{
+							"moduleIndex": 0,
+							"channelIndex": 7,
+							"moduleType": 4026531874,
+							"channelType": 2684354592,
+							"name": "FlowValve",
+							"feature": 0,
+							"unit": "V",
+							"watchdogValue": 0,
+							"watchdogEnabled": false,
+							"offset": 0,
+							"gain": 1,
+							"scaledUpper": 10,
+							"scaledLower": 0,
+							"clampUpper": 0,
+							"clampLower": 0,
+							"averageFilterWeight": 0,
+							"simpleMovingAverageReadings": 0,
+							"qualityEnabled": true,
+							"steinhartHartCoefficientA": 0,
+							"steinhartHartCoefficientB": 0,
+							"steinhartHartCoefficientSecondOrder": 0,
+							"steinhartHartCoefficientC": 0
+						}
+					]
+				}
+			}
+		],
+		"moduleTypes": {
+			"types": [
+				{
+					"index": 0,
+					"type": "0xF0000022",
+					"name": "GRV-R7-MM1001-10"
+				}
+			]
+		},
+		"qualityFlags": {
+			"qualityMask": 65534
+		},
+		"ioDiagnostics": {
+			"moduleTimesDiscovered": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"communications": {
+				"arcnetAcks": 190562,
+				"acomScanCount": 190561,
+				"vcomScanCount": 0
+			},
+			"scannerTimes": {
+				"acomMsPerScan": 10.252127647399902,
+				"vcomMsPerScan": 0
+			}
+		}
+	},
+	"ioConfig": {
+		"manageConfig": {
+			"rackModuleTouchEnabled": true
+		},
+		"localConfig": {
+			"degreesF": true,
+			"watchdogMs": 0,
+			"modbusFloatFormat": 0,
+			"ioModbusSlaveEnabled": true
+		}
+	},
+	"pidLoops": {
+		"pidConfigs": {
+			"pids": []
+		}
+	},
+	"systemInfo": {
+		"time": {
+			"ntp": {
+				"serviceEnabled": true,
+				"timeServers": [
+					{
+						"peerType": "pool",
+						"address": "0.pool.ntp.org"
+					},
+					{
+						"peerType": "pool",
+						"address": "1.pool.ntp.org"
+					},
+					{
+						"peerType": "pool",
+						"address": "2.pool.ntp.org"
+					}
+				]
+			},
+			"timezone": {
+				"timezone": "Universal"
+			},
+			"current": {
+				"systemUpTimeSec": 1967,
+				"systemTime": "2026-03-27T17:44:12.000Z",
+				"systemUtcOffset": 0
+			}
+		},
+		"bluetooth": {
+			"serviceRunning": false,
+			"serviceEnabled": false
+		},
+		"files": {
+			"drives": {
+				"drives": []
+			}
+		},
+		"shell": {
+			"status": {
+				"serviceEnabled": false,
+				"serviceRunning": false,
+				"eulaAccepted": false
+			}
+		},
+		"usb": {
+			"enable": false,
+			"automount": true,
+			"appPermissions": "secured"
+		},
+		"settings": {
+			"firstAppLoaded": "manage"
+		},
+		"serialDevices": {
+			"serialDevices": []
+		}
+	},
+	"nodeRedInfo": {
+		"status": {
+			"nodeRedFlows": {
+				"lastModified": -1,
+				"lastModifiedISO": ""
+			},
+			"nodeJsVersion": "v12.22.1",
+			"nodeRedVersion": "2.2.2",
+			"portListening": false
+		}
+	},
+	"dataServiceInfo": {
+		"configuration": {},
+		"status": {
+			"serviceEnabled": false,
+			"serviceRunning": false
+		}
+	},
+	"securityInfo": {
+		"firewall": {
+			"rules": [
+				{
+					"isUserRule": false,
+					"title": "groov RIO",
+					"eth0Allow": true,
+					"wlan0Allow": true,
+					"tun0Allow": true,
+					"ports": [
+						"80",
+						"443"
+					],
+					"protocol": "tcp"
+				},
+				{
+					"isUserRule": false,
+					"title": "OptoMMP",
+					"eth0Allow": true,
+					"wlan0Allow": false,
+					"tun0Allow": true,
+					"ports": [
+						"2001"
+					],
+					"protocol": "both"
+				},
+				{
+					"isUserRule": false,
+					"title": "ModbusTCP",
+					"eth0Allow": true,
+					"wlan0Allow": false,
+					"tun0Allow": true,
+					"ports": [
+						"8502"
+					],
+					"protocol": "tcp"
+				}
+			]
+		}
+	},
+	"networkInfo": {
+		"networkStatus": {
+			"hostname": "opto-05-15-b5",
+			"dns": {
+				"nameServers": []
+			},
+			"gateways": {
+				"eth0": {},
+				"eth1": {},
+				"wlan0": {},
+				"tun0": {}
+			},
+			"interfaces": {
+				"eth0": {
+					"mac": "00:A0:3D:05:62:67",
+					"config": {
+						"method": "static",
+						"address": "192.168.1.7",
+						"netmask": "255.255.255.0",
+						"gateway": {},
+						"dns": {
+							"nameServers": [
+								"",
+								"",
+								""
+							],
+							"searchDomains": [
+								"",
+								"",
+								""
+							]
+						}
+					},
+					"current": {
+						"address": "192.168.1.7",
+						"netmask": "255.255.255.0",
+						"link": true
+					}
+				},
+				"wlan": {
+					"mac": "",
+					"config": {
+						"ssid": "",
+						"encryptionType": "none",
+						"keyType": "ascii",
+						"key": "",
+						"method": "manual",
+						"address": "",
+						"netmask": "",
+						"dns": {
+							"nameServers": [
+								"",
+								"",
+								""
+							],
+							"searchDomains": [
+								"",
+								"",
+								""
+							]
+						},
+						"gateway": {}
+					},
+					"current": {
+						"address": "",
+						"netmask": "",
+						"link": false
+					}
+				},
+				"tun0": {
+					"mac": "",
+					"config": {
+						"useWizard": false,
+						"configFileContent": "",
+						"protocolType": "udp",
+						"remotes": [],
+						"cipherType": "none",
+						"authType": "password",
+						"proxyAuthType": "basic",
+						"method": "manual",
+						"address": "",
+						"netmask": ""
+					},
+					"current": {
+						"address": "",
+						"netmask": "",
+						"link": false
+					}
+				},
+				"tun0GatewayDns": {
+					"gateway": {
+						"order": 255
+					},
+					"dns": {
+						"order": 255
+					}
+				}
+			}
+		},
+		"portRedirect": [],
+		"staticRoutes": []
+	},
+	"accountsInfo": {
+		"users": [
+			{
+				"dbId": "local:a68bcebb-9a7d-472a-9441-939c6adec833",
+				"username": "nwhs",
+				"apiKey": "bjrg2z8zJUFuBKBR7xT7V7LxM4Eu99De",
+				"email": "",
+				"isAdmin": true,
+				"manageAppPermission": "ADMIN",
+				"groovAppPermission": "ADMIN",
+				"nodeRedPermission": "EDITOR",
+				"pacRestApiPermission": "READ_WRITE",
+				"dataServiceOpcUaPermission": "NONE",
+				"sessionExpiration": "USE_GLOBAL_SETTING",
+				"userSource": "LOCAL"
+			}
+		],
+		"ldapPermissions": {
+			"defaultPermissions": {
+				"isAdmin": false,
+				"manageAppPermission": "NONE",
+				"groovAppPermission": "NONE",
+				"nodeRedPermission": "NONE",
+				"pacRestApiPermission": "NONE",
+				"dataServiceOpcUaPermission": "NONE"
+			},
+			"groupMappings": []
+		},
+		"sessionSettings": {
+			"sessionExpiration": "ONE_WEEK"
+		}
+	}
+}
