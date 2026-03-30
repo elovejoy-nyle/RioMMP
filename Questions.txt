@@ -19,7 +19,6 @@ I am curious if all the functionality of the restoration file can be written to 
 << Basically, all the backup does is read MMP data and store it in a file. 
 << The restore just reads the file and writes the data to the same MMP addresses it was read from.
 
-
 Q2:
 Network ports get disabled: is that normal?
 << yes, in older firmware version, that was a default.
@@ -28,7 +27,11 @@ Network ports get disabled: is that normal?
 FFFF F030 006C = TCP idle session timeout. 
 FFFF F038 0020 = TCP idle session timeout in milliseconds. 0 = disable.
 
-
 Q3:
 Can we turn off OptoMM?
 << No, but you may block the firewall port to it. 
+
+Q4:
+For modbusTCP, do we want both ports eabled (eth0, eth1) in our firewall? 
+
+
