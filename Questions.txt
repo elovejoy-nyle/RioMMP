@@ -1,0 +1,23 @@
+I have questions for Opto22, and want to keep track:
+
+Q0:
+I have updated the firmware on some of my testing units. 
+If I make a new restoration file, where the firmware has been updated, 
+will that restoration file be compatible with other Rio devices which have not had the firmware updates?
+(last I checked, the firmware version of new units we are receiving is 3.5)
+(when I looked at the files in the restoration zip file, I did see references to the firmware version)
+
+Q1:
+I have been reading up on OptoMMP.  
+I am curious if all the functionality of the restoration file can be written to the Rio using OptoMMP instead? 
+
+Q2:
+Network ports get disabled: is that normal?
+<< yes, in older firmware version, that was a default.
+FFFF F030 006C = TCP idle session timeout. 
+FFFF F038 0020 = TCP idle session timeout in milliseconds. 0 = disable.
+
+
+Q3:
+Can we turn off OptoMM?
+<< No, but you may block the firewall port to it. 
