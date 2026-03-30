@@ -1,0 +1,70 @@
+FFFF F030 0000,Memory Map revision number
+FFFF F030 0004,Powerup Clear flag
+FFFF F030 0008,Busy flag
+FFFF F030 000C,I Last error code
+FFFF F030 0010,Transaction label for previous transaction
+FFFF F030 0012,Source address of the unit that sent the request
+FFFF F030 0014,Error address for last error
+FFFF F030 0018,Loader revision
+FFFF F030 001C,IP Firmware (kernel) revision
+FFFF F030 0020,Unit type of the device
+FFFF F030 0024,Hardware revision (Month)
+FFFF F030 0025,Hardware revision (Day)
+FFFF F030 0026,Hardware revision (Year)
+FFFF F030 0028,Number of bytes of installed RAM
+FFFF F030 002C,Pad for alignment
+FFFF F030 002E,ENET1 MAC address
+FFFF F030 0034,IP ENET1 TCP/IP address
+FFFF F030 0038,IP ENET1 TCP/IP subnet mask
+FFFF F030 003C,IP ENET1 TCP/IP default gateway
+FFFF F030 0040,IP ENET1 DNS server address
+FFFF F030 0044,Reserved
+FFFF F030 0048,Device sends BootP or DHCP request when turned on
+FFFF F030 004C,Degrees are in F or C
+FFFF F030 0050,Reserved
+FFFF F030 0054,Watchdog time in milliseconds
+FFFF F030 0058,TCP/IP minimum Response Timeout (RTO)
+FFFF F030 005C,Digital scan counter
+FFFF F030 0060,Analog and digital scan counter
+FFFF F030 0064,Initial RTO
+FFFF F030 0068,TCP number of retries
+FFFF F030 006C,TCP idle session timeout
+FFFF F030 0070,Ethernet errors: late collisions
+FFFF F030 0074,Ethernet errors: excessive collisions
+FFFF F030 0078,Ethernet errors: other
+FFFF F030 007C,Smart modules present
+FFFF F030 0080,Device’s part number
+FFFF F030 00A0,Firmware version date
+FFFF F030 00B0,Firmware version time
+FFFF F030 0100,ARCNET reconfigs detected
+FFFF F030 0104,ARCNET reconfigs initiated by I/O unit
+FFFF F030 0108,Number of times the device closed the session because it was idle
+FFFF F030 010C,Milliseconds since powerup
+FFFF F030 0110,Ethernet MAC resets since powerup
+FFFF F030 0114,Digital output channel resets since powerup
+FFFF F030 0118,Digital interrupt failures since powerup
+FFFF F030 011C,Total number of PID loops available
+FFFF F030 0120,ARCNET transmit attempts since powerup
+FFFF F030 0124,ARCNET other
+FFFF F030 0128,ARCNET ACKs
+FFFF F030 012C,ARCNET delay between transmit attempt and ACK
+FFFF F030 0130,ARCNET timeout value
+FFFF F030 0134,ARCNET timeouts
+FFFF F030 0138,ARCNET receive interrupts
+FFFF F030 013C,Reserved
+FFFF F030 0140,Milliseconds per analog/HDD scan
+FFFF F030 0144,Milliseconds per digital scan
+FFFF F030 0148,Number of digital modules supported
+FFFF F030 014C,Unique serial number
+FFFF F030 0150,Multidrop address
+FFFF F030 0154,Baud rate
+FFFF F030 0158,Number of framing errors during serial transmission
+FFFF F030 015C,Number of FIFO overrun errors
+FFFF F030 0160,Elapsed time since powerup (seconds)
+FFFF F030 0164,Reserved
+FFFF F030 0228,Milliseconds since powerup (64-bit)
+FFFF F030 0230,Current boot device
+FFFF F030 0234,Reserved
+FFFF F030 0248,Result of Status Area Write commands
+FFFF F030 024C,Firmware revision
+FFFF F030 0250,Number of writes to permanent storage
