@@ -14,6 +14,8 @@ I am curious if all the functionality of the restoration file can be written to 
 Q2:
 Network ports get disabled: is that normal?
 << yes, in older firmware version, that was a default.
+<< If the feature is causing issues, you can increase the value or disable it (with a value of 0). 
+<< You can also keep it in place and ensure the socket is used at least every 4 minutes to prevent it from timing out. 
 FFFF F030 006C = TCP idle session timeout. 
 FFFF F038 0020 = TCP idle session timeout in milliseconds. 0 = disable.
 
