@@ -1,5 +1,6 @@
+<pre>
 ########## Using OptMMP!####################
-https://docs.google.com/spreadsheets/d/1pteNGGcYGjEugrDHnax--SiNVR0sKQ_OqQUhZdeJIjY/edit?usp=sharing
+<a href="https://docs.google.com/spreadsheets/d/1pteNGGcYGjEugrDHnax--SiNVR0sKQ_OqQUhZdeJIjY/edit?usp=sharing"> Registers Mapped</a>
 The General MMP settings on the RIOs is just a list of addresses, and their indexes, (no description)
 So I made this list, and cross referenced it with the documentation. 
 Thats the fist 255 entries. 
@@ -28,3 +29,4 @@ myBytes = [  0, 0, 4, 80,  0, 0, 255, 255,  240, 48, 1, 12,  0, 4, 0, 0]
 FFFFF030010C,Milliseconds since powerup,73882846
 Opto MMP is on by default, can not be shut off, and controls everything the Opto devices do.
 it also requires no passwords, or checksums! 
+</pre>
