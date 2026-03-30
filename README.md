@@ -11,14 +11,12 @@ index 46,47 upper and lower clamps, that looks interesting.
 
 The other reason I wanted to make this list is 
 the listed firmware updates modify the MMP settings per firmware version, 
-and those changes are hard to track on the opto22 website. 
+and those changes are hard to track on the opto22 website.   
+Here we have firmware version grv-r7-mm1001-10-4.1.0-b.74.s we care about, 
+
+#thought: maybe the entire opto provisioning proces can be performed via MMP script  
+Scripts folder: read registers script, (TODO):: write registers  
   
-Here we have firmware version grv-r7-mm1001-10-4.1.0-b.74.
-Frequently when talking with opto, 
-their solutions involve modifying the memory map. 
-Configurations via Groov Manage, thats a memory map mod. 
-at some point Ill figure outall the addresses and configurations we care about, 
-and then configuring the optos should be pretty easy.
 myBytes = [  0, 0, 4, 80,  0, 0, 255, 255,  240, 48, 1, 12,  0, 4, 0, 0]
 
   0, 0, -> destination ID
