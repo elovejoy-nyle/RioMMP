@@ -6,10 +6,19 @@ If I make a new restoration file, where the firmware has been updated,
 will that restoration file be compatible with other Rio devices which have not had the firmware updates?
 (last I checked, the firmware version of new units we are receiving is 3.5)
 (when I looked at the files in the restoration zip file, I did see references to the firmware version)
+<<  Regarding your questions, it’s best to perform the backup and restore on the same firmware version. 
+<< It will work across versions as well, but if the backup is created on one firmware version 
+<< and the restore is performed on an older one, the backup may contain features that don’t exist 
+<< on the unit it’s being restored to. So, those settings will not be restored.
 
+ 
 Q1:
 I have been reading up on OptoMMP.  
 I am curious if all the functionality of the restoration file can be written to the Rio using OptoMMP instead? 
+<< You can write whatever configuration you like with MMP as well. 
+<< Basically, all the backup does is read MMP data and store it in a file. 
+<< The restore just reads the file and writes the data to the same MMP addresses it was read from.
+
 
 Q2:
 Network ports get disabled: is that normal?
