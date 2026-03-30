@@ -34,4 +34,8 @@ Can we turn off OptoMM?
 Q4:
 For modbusTCP, do we want both ports eabled (eth0, eth1) in our firewall? 
 
+Q5:
+Given this restrore file: E360 restore file.zip, 
+or : OptoSupport_date.jason, 
+can the OptoMMP registers of the approptiate settings be provided?
 
