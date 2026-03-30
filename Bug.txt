@@ -1,0 +1,3 @@
+Hypothesis:
+If the the E360 PLC stops sending traffic for over 4 minutes, There is a condition where resumed traffic could crash the PLC on resume. 
+
