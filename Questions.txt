@@ -32,14 +32,13 @@ Can we turn off OptoMM?
 << No, but you may block the firewall port to it. 
 
 Q4:
-For modbusTCP, do we want both ports eabled (eth0, eth1) in our firewall? 
+For modbusTCP, do we want both ports eabled (eth0, eth1) in our firewall?
+<< If you are unsure which interface is used, I would open the firewall on both. 
+<< This would ensure the client can connect. There is no real downside.
 
 Q5:
-( here I want to define robustness of wiring config)
-So if I were to enable ModbusTCP on both eth0, eth1, would this cause any problems?.
-If the PLC were on Eth1, would there be erratic operation?
-(in the scenario of eth1 being disabled to ModbusTCP, 
-but passing the traffic of eth0 through because the port config is "switched")
+I read the documentation but when I try to write the addresses, either via caommands, or the web interface,
+Changes are not permanent? How do we modify registers?
 
 
 Q6:
