@@ -37,14 +37,6 @@ For modbusTCP, do we want both ports eabled (eth0, eth1) in our firewall?
 << This would ensure the client can connect. There is no real downside.
 
 Q5:
-( here I want to define robustness of wiring config)
-So if I were to enable ModbusTCP on both eth0, eth1, would this cause any problems?.
-If the PLC were on Eth1, would there be erratic operation?
-(in the scenario of eth1 being disabled to ModbusTCP, 
-but passing the traffic of eth0 through because the port config is "switched")
-
-
-Q6:
 Given this restrore file: E360 restore file.zip, 
 or : OptoSupport_date.jason, 
 can the OptoMMP registers of the approptiate settings be provided?
