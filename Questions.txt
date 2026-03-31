@@ -37,6 +37,11 @@ For modbusTCP, do we want both ports eabled (eth0, eth1) in our firewall?
 << This would ensure the client can connect. There is no real downside.
 
 Q5:
+I read the documentation but when I try to write the addresses, either via caommands, or the web interface,
+Changes are not permanent? How do we modify registers?
+
+
+Q6:
 Given this restrore file: E360 restore file.zip, 
 or : OptoSupport_date.jason, 
 can the OptoMMP registers of the approptiate settings be provided?
