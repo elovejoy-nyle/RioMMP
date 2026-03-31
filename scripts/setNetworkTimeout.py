@@ -1,5 +1,5 @@
-#!/user/bin/env python3
-import socket, struct
+#!/usr/bin/env python3
+import socket
 
 ip = '192.168.1.7'
 port = 2001
@@ -7,17 +7,14 @@ port = 2001
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((ip, port))
 
-# write 0 to FFFF F038 0020
-pkt = bytes([
-    0,0,4,1,        # write block request
-    0,0,255,255,     # high address = FFFF
-    240,56,0,32,     # low address  = F0380020
-    0,16,0,0,        # length = 16 data bytes
-    0,0,0,0,         # first 4 data bytes = 0
-    0,0,0,0,0,0,0,0,0,0,0,0  # pad to 16 data bytes
-])
+DISCOVERY_PAYLOAD = bytes.fromhex(
+    "00 00 04 50"
+    "00 00 FF FF"
+    "F0 30 00 20"
+    "01 30 00 00"
+)
 
-s.send(pkt)
-resp = s.recv(12)
-print(struct.unpack('>i', resp[4:8])[0])  # 0 = success
+s.sendall(DISCOVERY_PAYLOAD)
+resp = s.recv(320)
+print(resp.hex(" "))
 s.close()
