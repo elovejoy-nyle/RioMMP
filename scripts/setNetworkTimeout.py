@@ -9,7 +9,7 @@ s.connect((ip, port))
 
 # write 0 to FFFF F038 0020
 pkt = bytes([
-    0,0,4,16,        # write block request
+    0,0,4,1,        # write block request
     0,0,255,255,     # high address = FFFF
     240,56,0,32,     # low address  = F0380020
     0,16,0,0,        # length = 16 data bytes
