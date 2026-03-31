@@ -32,7 +32,9 @@ Can we turn off OptoMM?
 << No, but you may block the firewall port to it. 
 
 Q4:
-For modbusTCP, do we want both ports eabled (eth0, eth1) in our firewall? 
+For modbusTCP, do we want both ports eabled (eth0, eth1) in our firewall?
+<< If you are unsure which interface is used, I would open the firewall on both. 
+<< This would ensure the client can connect. There is no real downside.
 
 Q5:
 ( here I want to define robustness of wiring config)
