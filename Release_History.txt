@@ -1,3 +1,4 @@
+<pre>
 Firmware Version 	Release Date
 4.1.1 	April 1, 2026
 4.1.0 	March 2, 2026
@@ -22,3 +23,22 @@ Firmware Version 	Release Date
 
 # Additional Refernce material
 # https://www.opto22.com/support/resources-tools/documents/groov-rio-firmware-release-notes
+
+History for Nyle of Groov Rio deployments, and possible issues relating to TCP/Modus:
+<b>
+Estimated initial deployments Date: June 2021
+Estimated minimum firmware version: 3.0.0
+</b>
+https://www.opto22.com/support/resources-tools/knowledgebase/kb89670
+When host software attempts to open an OptoMMP (TCP) or Modbus/TCP connection, the connection may be refused if previous connections were not closed correctly.
+
+https://www.opto22.com/support/resources-tools/knowledgebase/kb89636
+When using a Modbus/TCP client to access the Modbus/TCP server on groov EPIC and groov RIO units, some transactions may fail even when accessing valid Modbus/TCP registers or a valid memory map region.
+
+https://www.opto22.com/support/resources-tools/knowledgebase/kb89676
+When a client sends messages to the Modbus/TCP server on groov EPIC, groov EPIC may return the wrong Modbus/TCP exception code.
+
+https://www.opto22.com/support/resources-tools/knowledgebase/kb91081
+When host software attempts to open an OptoMMP (TCP) or Modbus/TCP connection, the connection may be refused, even though connections to other services (like groov Manage or the controller) continue to operate normally
+
+</pre>
